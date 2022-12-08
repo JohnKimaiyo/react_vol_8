@@ -7,6 +7,7 @@ import Title from "./components/Title";
 import Welcome from "./components/Welcome";
 import Form from "./components/Form";
 import Mycount from "./components/Mycount";
+import Users from "./components/Users";
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
       <Mycount />
       <Myname />
       <Form />
+      <Users />
     </div>
   );
 }
