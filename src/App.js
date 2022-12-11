@@ -8,6 +8,7 @@ import Welcome from "./components/Welcome";
 import Form from "./components/Form";
 import Mycount from "./components/Mycount";
 import Users from "./components/Users";
+import Event from "./components/Event";
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
       <Myname />
       <Form />
       <Users />
+      <Event/>
     </div>
   );
 }
